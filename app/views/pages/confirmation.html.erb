@@ -1,0 +1,12 @@
+<h1>Newsletter Weekly</h1>
+
+<% if @success %>
+<div>
+  Newsletter sent to <%= @email %>.
+</div>
+<% else %>
+<div>
+  Error. Newsletter cannot send to <%= @email %>.
+</div>
+<% end %>
+<%= link_to "Back to home", root_path %>

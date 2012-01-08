@@ -1,0 +1,9 @@
+class EmailsController < ApplicationController
+  
+  def input
+  end
+
+  def send
+
+  end
+end
